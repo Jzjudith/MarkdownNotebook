@@ -1,0 +1,54 @@
+﻿## FIREWALL
+
+A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules.
+
+Firewalls have been a first line of defense in network security for over 25 years. They establish a barrier between secured and controlled internal networks that can be trusted and untrusted outside networks, such as the Internet.
+
+A firewall can be hardware, software, software-as-a service (SaaS), public cloud, or private cloud (virtual).
+
+### Different types of firewalls
+
+#### Proxy firewall
+An early type of firewall device, a proxy firewall serves as the gateway from one network to another for a specific application. Proxy servers can provide additional functionality such as content caching and security by preventing direct connections from outside the network. However, this also may impact throughput capabilities and the applications they can support.
+
+#### Stateful inspection firewall
+
+Now thought of as a “traditional” firewall, a stateful inspection firewall allows or blocks traffic based on state, port, and protocol. It monitors all activity from the opening of a connection until it is closed. Filtering decisions are made based on both administrator-defined rules as well as context, which refers to using information from previous connections and packets belonging to the same connection.
+
+#### Unified threat management (UTM) firewall
+
+A UTM device typically combines, in a loosely coupled way, the functions of a stateful inspection firewall with intrusion prevention and antivirus. It may also include additional services and often cloud management. UTMs focus on simplicity and ease of use.
+
+#### Next-generation firewall (NGFW)
+
+Firewalls have evolved beyond simple packet filtering and stateful inspection. Most companies are deploying next-generation firewalls to block modern threats such as advanced malware and application-layer attacks.
+
+According to Gartner, Inc.’s definition, a next-generation firewall must include:
+-   Intelligence-based access control with stateful inspection
+-   Integrated intrusion prevention system (IPS)
+-   Application awareness and control to see and block risky apps
+-   Upgrade paths to include future information feeds
+-   Techniques to address evolving security threats
+-   URL filtering based on geolocation and reputation
+    
+While these capabilities are increasingly becoming the standard for most companies, NGFWs can do more.
+
+#### Threat-focused NGFW
+
+These firewalls include all the capabilities of a traditional NGFW and also provide advanced threat detection and remediation. With a threat-focused NGFW you can:
+-   Know which assets are most at risk with complete context awareness
+-   Quickly react to attacks with intelligent security automation that sets policies and hardens your defenses dynamically
+-   Better detect evasive or suspicious activity with network and endpoint event correlation
+-   Greatly decrease the time from detection to cleanup with retrospective security that continuously monitors for suspicious activity and behavior even after initial inspection
+-   Ease administration and reduce complexity with unified policies that protect across the entire attack continuum
+
+#### Virtual firewall
+A virtual firewall is typically deployed as a virtual appliance in a private cloud (VMware ESXi, Microsoft Hyper-V, KVM) or public cloud (Amazon Web Services or AWS, Microsoft Azure, Google Cloud Platform or GCP, Oracle Cloud Infrastructure or OCI) to monitor and secure traffic across physical and virtual networks. A virtual firewall is often a key component in software-defined networks (SDN).
+
+#### Cloud Native Firewall
+Cloud native firewalls are modernizing the way to secure applications and workload infrastructure at scale. With automated scaling features, cloud native firewalls enable networking operations and security operations teams to run at agile speeds.
+
+#### Advantages of Cloud Native Firewalls
+-   Agile and elastic security
+-   Multi-tenant capability
+-   Smart load balancing
